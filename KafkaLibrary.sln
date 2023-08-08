@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AD6D4457-2AE3-4FA9-8898-E62527C9C842}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sample", "sample", "{E734BB35-C815-4517-833B-5C652F3FF44C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{C1158477-CF9C-4926-8C3B-C82E7A649F8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaLibrary", "src\KafkaLibrary\KafkaLibrary.csproj", "{A9516209-A7AC-4764-A85F-6684B7DBE95C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostedServiceSample", "sample\HostedServiceSample\HostedServiceSample.csproj", "{4FC7AE9D-1342-40F7-8147-FA176AFBBA24}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9516209-A7AC-4764-A85F-6684B7DBE95C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9516209-A7AC-4764-A85F-6684B7DBE95C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9516209-A7AC-4764-A85F-6684B7DBE95C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9516209-A7AC-4764-A85F-6684B7DBE95C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FC7AE9D-1342-40F7-8147-FA176AFBBA24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FC7AE9D-1342-40F7-8147-FA176AFBBA24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FC7AE9D-1342-40F7-8147-FA176AFBBA24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FC7AE9D-1342-40F7-8147-FA176AFBBA24}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A9516209-A7AC-4764-A85F-6684B7DBE95C} = {AD6D4457-2AE3-4FA9-8898-E62527C9C842}
+		{4FC7AE9D-1342-40F7-8147-FA176AFBBA24} = {E734BB35-C815-4517-833B-5C652F3FF44C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AEE2238A-C3C1-4E7C-9D52-C9C49F204CAF}
+	EndGlobalSection
+EndGlobal
